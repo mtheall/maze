@@ -1,7 +1,5 @@
-#include <stdio.h>
 #include <feos.h>
 #include <feos3d.h>
-#include <stdlib.h>
 #include "fixed.h"
 #include "maze.h"
 
