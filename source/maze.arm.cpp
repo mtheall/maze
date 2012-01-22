@@ -64,6 +64,9 @@ int Maze::worker() {
   int wall;
   int walls;
 
+  if(finished())
+    return 0;
+
   FeOS_Yield();
   cell = teleport(UNDUG);
   if(cell != -1) {
