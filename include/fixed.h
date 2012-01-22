@@ -87,27 +87,27 @@ inline f32& f32::operator/=(const f32 &f) {
   return *this;
 }
 
-bool f32::operator< (const f32 &f) const {
+inline bool f32::operator< (const f32 &f) const {
   return v < f.v;
 }
 
-bool f32::operator<=(const f32 &f) const {
+inline bool f32::operator<=(const f32 &f) const {
   return v <= f.v;
 }
 
-bool f32::operator> (const f32 &f) const {
+inline bool f32::operator> (const f32 &f) const {
   return v > f.v;
 }
 
-bool f32::operator>=(const f32 &f) const {
+inline bool f32::operator>=(const f32 &f) const {
   return v >= f.v;
 }
 
-bool f32::operator==(const f32 &f) const {
+inline bool f32::operator==(const f32 &f) const {
   return v == f.v;
 }
 
-bool f32::operator!=(const f32 &f) const {
+inline bool f32::operator!=(const f32 &f) const {
   return v != f.v;
 }
 
