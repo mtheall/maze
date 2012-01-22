@@ -126,6 +126,9 @@ int main(int argc, char *argv[]) {
 
     down = keysDownRepeat();
 
+    if(down & KEY_B)
+      break;
+
     if((down & KEY_UP) && (walls & WALL_UP) == 0)
       y--;
     if((down & KEY_DOWN) && (walls & WALL_DOWN) == 0)
